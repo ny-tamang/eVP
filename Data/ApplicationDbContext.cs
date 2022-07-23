@@ -12,5 +12,6 @@ namespace evp.Data
         public DbSet<BusinessVisa> BusinessVisaForm { get; set; }
         public DbSet<StudentVisa> StudentVisaForm { get; set; }
         public DbSet<TouristVisa> TouristVisaForm { get; set; }
+        public DbSet<evp.Models.PassportApply>? PassportApply { get; set; }
     }
 }
